@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3a19b5c091d8e0",
+        "id": "17a4c6cb9075e57f",
         "type": "tabs",
         "children": [
           {
-            "id": "6069c334e088e4ec",
+            "id": "d2cc19a882f5ec5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Js-DOM/Js-DOM.md",
+                "file": "CSS/CSS-Grid.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Js-DOM/Js-DOM.md",
+                "file": "CSS/CSS-Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Js-DOM/Js-DOM.md",
+                "file": "CSS/CSS-Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Js-DOM/Js-DOM.md"
+                "file": "CSS/CSS-Grid.md"
               }
             }
           }
@@ -147,11 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6069c334e088e4ec",
+  "active": "d2cc19a882f5ec5e",
   "lastOpenFiles": [
-    "Imgs/DOM Tree.png",
-    "Js-DOM/Js-DOM.md",
+    "CSS/CSS-Flex.md",
+    "CSS/CSS-Grid.md",
+    "TODO.md",
     "Untitled.canvas",
+    "2023-09-12.md",
+    "Js-DOM/Js-DOM.md",
+    "CSS",
+    "Imgs/DOM Tree.png",
     "2023-09-11.md",
     "Imgs",
     "Js-DOM",
