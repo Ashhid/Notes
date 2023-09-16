@@ -1,4 +1,7 @@
-## JavaScript-DOM
+<h1 style="text-align: center">JavaScript-DOM</h1>
+<hr>
+
+<marquee style="font-size: 20px">Accessing the tags in HTML</marquee>
 ```markdown
 Document
 └── Element <html>
@@ -43,6 +46,7 @@ const title = document.getElementByClassName('hello');
 
 2. GetElementByTagName(): 
 	- This query allows you to select and retrieve HTML elements with the specified tag name as an HTML Collection object.
+	- Returns `HTMLCollection`.
 ```js
 	const listItems = document.getElementsByTagName('li');
 	//returns HTMLCollection.
@@ -58,8 +62,13 @@ const container = document.querySelector('div');
 4. querySelectorAll();
 	- This is exactly the same as `querySelectorAll()` but we did notice that the above query only selects top most one.
 	- But this one instead selects everything, which matches
+	- Returns a `NodeList`.
 ```js 
 const container = document.querySelectorAll('div');
 //returns all the div's that matches in th html file.
 ```
 ---
+<marquee><span style="color: tomato">S</span>tyling an <span style="color: tomato">E</span>lement</marquee>
+<hr>
+
+
