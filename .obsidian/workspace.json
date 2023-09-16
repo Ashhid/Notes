@@ -11,9 +11,11 @@
             "id": "d2cc19a882f5ec5e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Js-DOM/Pasted image 20230916113512.png"
+                "file": "Js-DOM/JavaScript-DOM.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Js-DOM/Pasted image 20230916113512.png",
+                "file": "Js-DOM/JavaScript-DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Js-DOM/Pasted image 20230916113512.png",
+                "file": "Js-DOM/JavaScript-DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Js-DOM/Pasted image 20230916113512.png"
+                "file": "Js-DOM/JavaScript-DOM.md"
               }
             }
           },
@@ -156,7 +158,9 @@
   },
   "active": "d2cc19a882f5ec5e",
   "lastOpenFiles": [
-    "Js-DOM/DOM-Tree.PNG",
+    "Js-DOM/Imgs/DOM-Tree.PNG",
+    "Js-DOM/Imgs",
+    "Imgs/DOM-Tree.PNG",
     "Js-DOM/JavaScript-DOM.md",
     "Js-DOM/Pasted image 20230916113512.png",
     "Js-DOM/DOM Tree.PNG",
