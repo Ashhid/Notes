@@ -63,4 +63,3 @@ const container = document.querySelectorAll('div');
 //returns all the div's that matches in th html file.
 ```
 ---
-$(a+b)^2 = a^2 + b^2 + 2ab$ 
