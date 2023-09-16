@@ -1,4 +1,4 @@
-# JavaScript-DOM
+## JavaScript-DOM
 
 ![](./DOM%20Tree.PNG)
 - This is a diagram of a document tree.
