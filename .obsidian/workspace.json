@@ -11,9 +11,11 @@
             "id": "d2cc19a882f5ec5e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Js-DOM/DOM Tree.png"
+                "file": "Js-DOM/JavaScript-DOM.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Js-DOM/DOM Tree.png",
+                "file": "Js-DOM/JavaScript-DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Js-DOM/DOM Tree.png",
+                "file": "Js-DOM/JavaScript-DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Js-DOM/DOM Tree.png"
+                "file": "Js-DOM/JavaScript-DOM.md"
               }
             }
           },
@@ -154,13 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e8d36c84674dbcf",
+  "active": "d2cc19a882f5ec5e",
   "lastOpenFiles": [
+    "Js-DOM/DOM Tree.png",
     "Js-DOM/JavaScript-DOM.md",
     "Js-DOM/JavaScript-DOM 1.md",
     "DOM.md",
     "Untitled.md",
-    "Js-DOM/DOM Tree.png",
     "CSS/CSS-Grid.md",
     "CSS/CSS-Flex.md",
     "TODO.md",
