@@ -1,7 +1,8 @@
-<h1 style="text-align: center">JavaScript-DOM</h1>
+s<h1 style="text-align: center">JavaScript-DOM</h1>
+<hr>
+<marquee style="font-size: 20px">Accessing the tags in HTML</marquee>
 <hr>
 
-<marquee style="font-size: 20px">Accessing the tags in HTML</marquee>
 ```markdown
 Document
 └── Element <html>
@@ -59,7 +60,7 @@ const container = document.querySelector('div');
 //returns only the first item that matches
 ```
 ---
-4. querySelectorAll();
+4. querySelectorAll():
 	- This is exactly the same as `querySelectorAll()` but we did notice that the above query only selects top most one.
 	- But this one instead selects everything, which matches
 	- Returns a `NodeList`.
@@ -68,7 +69,79 @@ const container = document.querySelectorAll('div');
 //returns all the div's that matches in th html file.
 ```
 ---
-<marquee><span style="color: tomato">S</span>tyling an <span style="color: tomato">E</span>lement</marquee>
-<hr>
+#### Styling an Element
+---
+- This is used for making the making a single `CSS` query inside of `Js`.
+- note that `CSS` property uses `snake-case` but in `Js` we use  `camel-case`
+- This will not work with `querySelectorAll`. It'll throw a `cannot set properties of undefined` error. Since the return type of `querySelectorAll` is a `HTMLCollection`.
+```js
+const grab = document.querySelector('h1')
+grab.style.fontSize = '10px';
+```
+Incase if you want to do we can. use a for loop for it.
+```js
+for (i = 0; i < grab.length; i++){
+	grab[i].style.fontSize = '10px';
+}
+```
+---
+#### Creating a Elements
+---
+- To add a new element into a container we use the `append` function.
+- The format is `<container>.append(<newElement>)`.
+```js
+//here this "grab" is for the container we want to include the new element.
+const grab = document.querySelector('div.lol');
 
+//now we create a new element variable.
+const addNewH1 = document.createElement('h1');
 
+//append to the container.
+grab.append(addNewH1);
+```
+---
+#### Modifying The Text
+---
+- Consider this HTML File:
+```html
+<ul>
+	<li>
+		<span> Neo </span>
+		The Matrix
+	</li>
+</ul>
+```
+--- 
+1. innerText:
+	- This is used for returning the whole content inside of the container
+```js
+const grab = document.querySelector('.list');
+console.log(grab.innerText);
+
+//output 
+Neo The matrix
+```
+---
+2. innerHTML:
+	- As the name says, it returns a content with the original HTML. 
+```js
+const grab = document.querySelector('.list');
+console.log(grab.innerHTML);
+
+//output
+<span>Neo</span>
+The matrix
+```
+---
+
+3. textContent:
+	- It returns all the text within an element, including that may be hidden or styled to or not.
+```js
+const grab = document.querySelector('.list');
+console.log(grab.textContent);
+
+//output
+Neo
+The Matrix
+```
+---
