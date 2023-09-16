@@ -31,5 +31,5 @@ const title = document.getElementByClassName('hello');
 1. GetElementByTagName(): 
 	- This query allows you to select and retrieve HTML elements with the specified tag name as an HTML Collection object.
 ```js
-	
+	const
 ```
