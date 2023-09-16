@@ -38,7 +38,7 @@ const title = document.getElementByClassName('hello');
 ```
 ---
 3. querySelector():
-	- what is does is that it selects the tags with the first item which that matches
+	- What is does is that it selects the tags with the first item which that matches
 ```js
 const container = document.querySelector('div');
 //returns only the first item that matches
