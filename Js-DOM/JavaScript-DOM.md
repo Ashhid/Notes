@@ -45,4 +45,10 @@ const container = document.querySelector('div');
 ```
 ---
 4. querySelectorAll();
-	- 
+	- This is exactly the same as `querySelectorAll()` but we did notice that the above query only selects top most one.
+	- But this one instead selects everything, which matches
+```js 
+const container = document.querySelectorAll('div');
+//returns all the div's that matches in th html file.
+```
+---
