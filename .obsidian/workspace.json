@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Js-DOM/JavaScript-DOM.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -159,10 +159,10 @@
   "active": "425de22fdfe2b572",
   "lastOpenFiles": [
     "Js-DOM/DOM-Tree.PNG",
+    "Js-DOM/JavaScript-DOM.md",
     "TODO.md",
     "DOM.md",
     "Imgs/DOM-Tree.PNG.md",
-    "Js-DOM/JavaScript-DOM.md",
     "Imgs",
     "Js-DOM/Imgs",
     "Imgs/DOM-Tree.PNG",
