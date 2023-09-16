@@ -1,5 +1,5 @@
 ## JavaScript-DOM
-![helo](/Imgs/DOM-Tree.PNG)
+![helo](Dom-Tree.png)
 - This is a diagram of a document tree.
 - The diagram is in a tree format with the root node begin "Document".
 - The tree has three levels

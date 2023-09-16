@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "17a4c6cb9075e57f",
+        "id": "c9614df5266ed733",
         "type": "tabs",
         "children": [
           {
-            "id": "d2cc19a882f5ec5e",
+            "id": "425de22fdfe2b572",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Js-DOM/JavaScript-DOM.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -156,26 +156,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2cc19a882f5ec5e",
+  "active": "425de22fdfe2b572",
   "lastOpenFiles": [
-    "Js-DOM/Imgs/DOM-Tree.PNG",
+    "Js-DOM/DOM-Tree.PNG",
+    "TODO.md",
+    "DOM.md",
+    "Imgs/DOM-Tree.PNG.md",
+    "Js-DOM/JavaScript-DOM.md",
+    "Imgs",
     "Js-DOM/Imgs",
     "Imgs/DOM-Tree.PNG",
-    "Js-DOM/JavaScript-DOM.md",
     "Js-DOM/Pasted image 20230916113512.png",
     "Js-DOM/DOM Tree.PNG",
     "Js-DOM/DOM Tree.png",
     "Js-DOM/JavaScript-DOM 1.md",
-    "DOM.md",
     "Untitled.md",
     "CSS/CSS-Grid.md",
     "CSS/CSS-Flex.md",
-    "TODO.md",
     "Untitled.canvas",
     "2023-09-12.md",
     "CSS",
     "2023-09-11.md",
-    "Imgs",
     "Js-DOM",
     "Hello Bro.md"
   ]
