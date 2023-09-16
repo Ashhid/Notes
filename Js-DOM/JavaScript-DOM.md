@@ -28,8 +28,21 @@ const title = document.getElementById('hello');
 ```Js
 const title = document.getElementByClassName('hello');
 ```
-1. GetElementByTagName(): 
+---
+
+2. GetElementByTagName(): 
 	- This query allows you to select and retrieve HTML elements with the specified tag name as an HTML Collection object.
 ```js
-	const
+	const listItems = document.getElementsByTagName('li');
+	//returns HTMLCollection.
 ```
+---
+3. querySelector():
+	- what is does is that it selects the tags with the first item which that matches
+```js
+const container = document.querySelector('div');
+//returns only the first item that matches
+```
+---
+4. querySelectorAll();
+	- 
