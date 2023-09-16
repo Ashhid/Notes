@@ -11,11 +11,9 @@
             "id": "d2cc19a882f5ec5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md",
-                "mode": "source",
-                "source": false
+                "file": "Js-DOM/Pasted image 20230916113512.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md",
+                "file": "Js-DOM/Pasted image 20230916113512.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md",
+                "file": "Js-DOM/Pasted image 20230916113512.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md"
+                "file": "Js-DOM/Pasted image 20230916113512.png"
               }
             }
           },
@@ -158,9 +156,10 @@
   },
   "active": "d2cc19a882f5ec5e",
   "lastOpenFiles": [
+    "Js-DOM/JavaScript-DOM.md",
+    "Js-DOM/Pasted image 20230916113512.png",
     "Js-DOM/DOM Tree.PNG",
     "Js-DOM/DOM Tree.png",
-    "Js-DOM/JavaScript-DOM.md",
     "Js-DOM/JavaScript-DOM 1.md",
     "DOM.md",
     "Untitled.md",

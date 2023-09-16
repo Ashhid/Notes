@@ -1,5 +1,5 @@
 ## JavaScript-DOM
-
+![[Pasted image 20230916113512.png]]
 ![lol](./DOM%20Tree.PNG)
 - This is a diagram of a document tree.
 - The diagram is in a tree format with the root node begin "Document".
