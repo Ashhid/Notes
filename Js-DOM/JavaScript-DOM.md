@@ -154,3 +154,88 @@ grab.append(newH1);
 - What this does it makes a new element `h1` and then creates a text with the content `test`.
 - same with the other methods like `innerHTML` and `textContent`
 ---
+#### Attribute Manipulation
+---
+attribute can be manipulated by adding, removing etc.
+
+1. setAttribute():
+	- this function, which is self-explanatory. it adds a attribute to a element.
+	- `<name>.setAttribute(<attribute>,<value>)`
+	- You can add  `class`, `id`, `style`.
+```js
+const grab = document.querySelector('ul');
+const newLi = document.createElement('li');
+const.append(newLi);
+newLi.innerText = 'hello';
+newLi.setAttribute('id','list-items');
+console.log(newLi)
+```
+- this gives the output in the console as:
+```html
+<li class= "list-items"> hello </li>
+```
+- which makes complete sense.
+---
+2. .removeAttribute():
+	- Again pretty self-explanatory. removes a attribute-name from existing element
+	- `<name>.removeAttribute('<attribute-name>')`
+```js
+newElement.setAttribute('id', 'list-item');
+newElement.removeAttribute('id')
+```
+---
+3. .getAttribute():
+	- This is not basically not an manipulation function
+	- But this is useful for getting the value of the given attribute
+```js
+const grab = document.querySelector('list');
+console.log(grab.getAttribute('id'));
+```
+- this will return the attribute value.
+---
+#### Class Manipulation
+1. .classList.add():
+	- This function is used for adding the new class to the element.
+	- Yes a class name can be added with the `setAttribut` function too.
+```js
+const grab = document.querySelector('ul');
+const newLi = document.createElement('li');
+newLi.classList.add("list-items");
+```
+- This will add a new class name with `"list-items"`
+---
+2. .classList.remove():
+	- This is of-course what it says. it's used for removing the class name.
+	- This function can be achieved by the `.removeAttribute` too.
+```js
+newLi.classList.remove('list-items');
+console.log(newLi.getAttribute('class'));
+```
+- We will get no output for this. Which means that there is no class name.
+---
+3. .classList.contains():
+	- This is used for checking weather the class name is present or not.
+	- This can be even achieved by the `.getAttribute` too.
+```js
+newLi.classList.add('list-items');
+console.log(newLi.classList.contains('list-items'));
+```
+-  The output will be `true`. since it's a class for the `Newli`
+---
+- .remove(): 
+	- This is used to remove a element from the document.
+```js
+const grab = document.querySelector('ul');
+grab.remove();
+console.log(grab);
+```
+- The output will be still
+```html
+<ul class = "list">
+	<li>---</li>
+	<li>---</li>
+	<li>---</li>
+</ul>
+```
+- The reason you're still getting an output after removing the `ul` element from the DOM is because the `console.log(grab)` statement is executed after the removal. When you call `console.log(grab)`, it logs the current state of the `grab` variable, which still contains a reference to the removed `ul` element. However, the element is no longer a part of the DOM.
+- ---
