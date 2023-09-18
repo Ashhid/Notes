@@ -1,4 +1,4 @@
-s<h1 style="text-align: center">JavaScript-DOM</h1>
+<h1 style="text-align: center">JavaScript-DOM</h1>
 <hr>
 <marquee style="font-size: 20px">Accessing the tags in HTML</marquee>
 <hr>
@@ -36,7 +36,6 @@ querySelectorAll();
 const title = document.getElementById('hello');
 ```
 ---
-
 2. GetElementByClassName():
 	- This is used for selecting a class from the `html` tag
 	- like `<div class="hello"` to select this we can use the query.
@@ -144,4 +143,14 @@ console.log(grab.textContent);
 Neo
 The Matrix
 ```
+---
+- These can be used to make changes to the elements. let's suppose `textText`.
+```js
+const grabContainer = document.querySelector('.container');
+const newh1 = document.createElement('h1');
+newH1.innerText = "test";
+grab.append(newH1);
+```
+- What this does it makes a new element `h1` and then creates a text with the content `test`.
+- same with the other methods like `innerHTML` and `textContent`
 ---
