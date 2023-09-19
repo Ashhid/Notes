@@ -291,7 +291,7 @@ null
 #### Child Node Traversal
 ---
 1. .childNodes:
-- This is used to return the child elements as a `nodeList`.
+	- This is used to return the child elements as a `nodeList`.
 ``` js
 let grab = document.querySelector('ul')
 console.log(grab.childNodes);
@@ -300,7 +300,54 @@ console.log(grab.childNodes);
 ```shell
 NodeList(7) [text, li.list-items, text, li.list-items, text, li.list-items, text]
 ```
-- The `text` here means that it's the intonations between the `<li>` elements.
+- The `text` here means that it's the indentation between the `<li>` elements.
 ---
 2. .firstChild:
-- 
+	- As the name say's it's used for selecting the first child element.
+	- Here's how to do this.
+```js
+let grab = document.querySelector('ul');
+console.log(grab.firstChild);
+```
+- output
+```bash
+#text
+```
+- This implies that the first element is going to be a `text` since there's a indentation in the HTML file.
+- So, formatting / modifying this element, will mostly fail because as we discussed above that the `text` element is basically due to the indentation.
+- To avoid this we can use the indexing method.
+```js
+let grab = document.querySelector('ul');
+console.log(grab.childNodes[1]);
+```
+- Now this can be used for later modification.
+---
+- To, prevent this we can use one more thing which will only select the elements. 
+---
+3. .children
+	- This is will only select the `valid elements`, instead of the all `nodes`.
+```js
+const grab = document.querySelector('ul');
+console.log(grab.children)
+```
+- Output
+```bash
+HTMLCollection(3) [li.list-items, li.list-items, li.list-items]
+```
+- As we can see it just gave as the `HTMLCollection` of only the valid elements instead of giving the `NodeList` of all the components like `text`. which is annoying for later modification.
+---
+4. .firstElementChild :
+	- For selecting the first child element. we can use this function.
+	- This can be seen that the first element will be selected of `text`. This is because this function selects the first element.
+```js
+const grab = document.querySelector('ul');
+console.log('grab.firstElementChild');
+```
+---
+5. .lastElementChild:
+	- Same as the above one but with the last element.
+```js
+const grab = document.querySelector('ul');
+console.log('grab.lastElementChild');
+```
+---
