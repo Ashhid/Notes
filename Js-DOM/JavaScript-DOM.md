@@ -239,3 +239,68 @@ console.log(grab);
 ```
 - The reason you're still getting an output after removing the `ul` element from the DOM is because the `console.log(grab)` statement is executed after the removal. When you call `console.log(grab)`, it logs the current state of the `grab` variable, which still contains a reference to the removed `ul` element. However, the element is no longer a part of the DOM.
 - ---
+#### Traversing The DOM
+---
+1. .parentNode:
+	- This is used to find the father of the element.
+	- Consider this html 
+```html
+<body>
+	<div class="container">
+		<ul>
+			<li>Roxxane</li>
+			<li>Baby</li>
+		</ul>
+	</div>
+</body>
+```
+```js
+let grab = document.querySelector("ul");
+console.log(grab.parentNode);
+```
+- What this gives is a `father` element which is the `<div class="container"> ... </div>`
+- Now let's suppose we want to access the `grandfather` element.
+- So, what we now do it use the `parentNode` two times.
+```js
+console.log(grab.parentNode.parentNode);
+```
+- which will give the output of the `grandfather` element that is `<body>...</body>`
+---
+- We can use `parentElement`. for this same thing too.
+```js
+let grab = doument.querySelector('ul');
+console.log(grab.parentElement);
+//also
+console.log(grab.parentElement.parentElement);
+```
+---
+- We can see the difference of these both two is by running this piece of code
+```js
+const html = document.documentElement;
+console.log(html.parentNode);
+console.log(html.parentElement);
+```
+- output
+```bash
+#document
+null
+```
+- What means here is that the `parentElement` returns the element. since there is no element here so, it returns `null` 
+- the `parentNode` returns the `#document` is because the name `parentNode` is more self-explanatory, this returns a `node`.
+---
+#### Child Node Traversal
+---
+1. .childNodes:
+- This is used to return the child elements as a `nodeList`.
+``` js
+let grab = document.querySelector('ul')
+console.log(grab.childNodes);
+```
+- So, the output will be like this.
+```shell
+NodeList(7) [text, li.list-items, text, li.list-items, text, li.list-items, text]
+```
+- The `text` here means that it's the intonations between the `<li>` elements.
+---
+2. .firstChild:
+- 
