@@ -341,13 +341,48 @@ HTMLCollection(3) [li.list-items, li.list-items, li.list-items]
 	- This can be seen that the first element will be selected of `text`. This is because this function selects the first element.
 ```js
 const grab = document.querySelector('ul');
-console.log('grab.firstElementChild');
+console.log(grab.firstElementChild);
 ```
 ---
 5. .lastElementChild:
 	- Same as the above one but with the last element.
 ```js
 const grab = document.querySelector('ul');
-console.log('grab.lastElementChild');
+console.log(grab.lastElementChild);
 ```
 ---
+6. .nextSiblings:
+	- This function is used for finding the next element after the targeted element.
+```js
+const grab = document.querySelector('ul');
+console.log(grab.nextSiblings);
+```
+- Output
+```bash
+#text
+```
+- The output is `#text` because of the indentation.
+---
+7. .previousSiblings:
+	- This is the exactly the similar one as the top one but the difference is that, this selects the previous one instead of the next one.
+```js
+const grab = document.querySelector('ul');
+console.log(grab.previousSiblings);
+```
+-  The output will be again `#text` due to the same reason.
+---
+8. .nextElementSiblings: 
+	- This is exactly what we learned earlier. This is used for selecting the elements instead of the node.
+```js
+const grab = document.querySelector('ul');
+console.log(grab.nextElementSiblings);
+```
+- Now this will not log a `text`. instead it will show the output of the previous element.
+---
+9. .previousElementSiblings:
+	- This is used for selecting the previous element.
+```js
+const grab = documnet.querySelector('ul');
+console.log(grab.previousElementSiblings);
+```
+--- 
