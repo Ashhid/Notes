@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d78c382e841309ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studies-Clg/Water & it's treatment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md",
+                "file": "Studies-Clg/Water & it's treatment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md",
+                "file": "Studies-Clg/Water & it's treatment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Js-DOM/JavaScript-DOM.md"
+                "file": "Studies-Clg/Water & it's treatment.md"
               }
             }
           },
@@ -159,9 +172,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "4b3e40911caf06bf",
+  "active": "d78c382e841309ec",
   "lastOpenFiles": [
     "Js-DOM/JavaScript-DOM.md",
+    "Studies-Clg/Water & it's treatment.md",
+    "Studies-Clg",
     "Js-DOM/1.png",
     "TODO.md",
     "DOM.md",
@@ -173,7 +188,6 @@
     "Js-DOM/DOM Tree.PNG",
     "Js-DOM/DOM Tree.png",
     "Js-DOM/JavaScript-DOM 1.md",
-    "Untitled.md",
     "CSS/CSS-Grid.md",
     "CSS/CSS-Flex.md",
     "Untitled.canvas",
