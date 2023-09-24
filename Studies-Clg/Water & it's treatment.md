@@ -46,4 +46,14 @@ Desalination:
 	- The pressure required for osmosis to happen is called Osmotic pressure ($\Pi$)
 	- The name "Reverse osmosis" is more self explanatory.
 		- It's the process of movement of the solvent from higher concentration to lower concentration by applying a pressure more than or Osmotic pressure ($\Pi < P_{\text{ext}}$)
-	- When this is performed 
+	- When this is performed the salt from the salt water is separated. And the solvent is transferred to the fresh water.
+---
+There are 3 types of water:
+1. Fresh Water
+2. Brackish Water
+3. Sea Water
+-  These are classified in the terms of salt content in the water
+- In the fresh water the salt content is very low $\approx$ 100PPM (Parts Per Million). 
+- In Brackish water the salt content is more than 100PPM and less than and more than 35000PPM.
+- In Sea water the salt content is more than 35000PPM.
+---
