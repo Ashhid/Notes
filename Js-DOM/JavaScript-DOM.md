@@ -1,4 +1,4 @@
-<h1 style="text-align: center">JavaScript-DOM</h1>
+# JavaScript-DOM<
 <hr>
 <marquee style="font-size: 20px">Accessing the tags in HTML</marquee>
 <hr>
