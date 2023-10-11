@@ -52,7 +52,7 @@ Desalination:
 - Osmosis the process of the the movement of the solvent of the lower concentration to higher concentration is called Osmosis, through a SPM (Semi Permeable Membrane).
 	- The pressure required for osmosis to happen is called Osmotic pressure ($\Pi$)
 	- The name "Reverse osmosis" is more self explanatory.
-		- It's the process of movement of the solvent from higher concentration to lower concentration by applying a pressure more than or Osmotic pressure ($\Pi < P_{\text{ext}}$)
+		- It's the process of movement of the solvent from higher concentration to lower concentration by applying a hydrostatic pressure more than Osmotic pressure ($\Pi < P_{\text{ext}}$)
 	- When this is performed the salt from the salt water is separated. And the solvent is transferred to the fresh water.
 ---
 There are 3 types of water:

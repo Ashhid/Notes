@@ -1,0 +1,5 @@
+- In the 2011 census, we found that there are almost 6,500 languages in the planet earth.
+- about 2000 languages are spoken by very less number of people(under 1000)
+- Linguist
+	- The person who learns about languages.
+- Linguist divide the 
