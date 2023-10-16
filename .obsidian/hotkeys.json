@@ -33,5 +33,14 @@
       "key": "`"
     }
   ],
-  "editor:toggle-comments": []
+  "editor:toggle-comments": [],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ]
 }

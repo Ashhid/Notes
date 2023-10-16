@@ -8,63 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc61edeb8c83f59d",
+            "id": "dd5cb2aecf3aa2f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studies-Clg/Tamil - Exam Q's.md",
+                "file": "Studies-Clg/Physics/Physics - 2marks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6448d3355131bf4c",
+            "id": "7d54b7ad8941c8b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studies-Clg/Physics/Physics - 5mark.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29d5eb3a57a0c8a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Studies-Clg/Physics/Physics - Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "612bc20ed6ad911f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "07c89fa58c70cdea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Studies-Clg/Physics/Physics - Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d8300905638d73d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Studies-Clg/Water & it's treatment.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "06bb5fbf3b9a3f36",
@@ -130,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studies-Clg/Water & it's treatment.md",
+                "file": "Studies-Clg/Physics/Physics - 5mark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studies-Clg/Water & it's treatment.md",
+                "file": "Studies-Clg/Physics/Physics - 5mark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studies-Clg/Water & it's treatment.md"
+                "file": "Studies-Clg/Physics/Physics - 5mark.md"
               }
             }
           },
@@ -203,24 +184,28 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9e8d36c84674dbcf",
+  "active": "7d54b7ad8941c8b7",
   "lastOpenFiles": [
     "Studies-Clg/Physics/Physics - 2marks.md",
+    "Studies-Clg/Physics/Physics - 5mark.md",
+    "WhatsApp Image 2023-10-16 at 23.52.24_6d79ec3b.jpg",
     "Studies-Clg/Physics/Physics - Questions.md",
+    "WhatsApp Image 2023-10-16 at 23.14.07_dac79963.jpg",
+    "Js-DOM/JavaScript-DOM.md",
+    "Studies-Clg/Physics/Imgs",
+    "Studies-Clg/Physics/Imgs/WhatsApp Image 2023-10-16 at 23.13.47_efb7b8ce.jpg",
+    "Studies-Clg/Water & it's treatment.md",
     "Studies-Clg/Physics",
     "TODO.md",
-    "Untitled.md",
     "Hint's.md",
     "Studies-Clg/Tamil - Exam Q's.md",
-    "Studies-Clg/Water & it's treatment.md",
     "Studies-Clg/Tamil - Heritage of Tamils.md",
     "SIH (Smart India Hackathon).md",
-    "Js-DOM/JavaScript-DOM.md",
     "Studies-Clg",
     "Js-DOM/1.png",
     "DOM.md",
     "Imgs/DOM-Tree.PNG.md",
-    "Imgs",
+    "Studies-Clg/Physics/Imgs",
     "Js-DOM/Imgs",
     "Imgs/DOM-Tree.PNG",
     "Js-DOM/Pasted image 20230916113512.png",
