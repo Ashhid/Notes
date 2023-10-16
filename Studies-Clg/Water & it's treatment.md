@@ -64,4 +64,3 @@ There are 3 types of water:
 - In Brackish water the salt content is more than 1000PPM and less than and more than 35000PPM.
 - In Sea water the salt content is more than 35000PPM.
 ---
----
