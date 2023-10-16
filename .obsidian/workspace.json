@@ -30,9 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "612bc20ed6ad911f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "07c89fa58c70cdea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physics - 2marks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics.md",
+                "file": "Physics - 2marks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics.md",
+                "file": "Physics - 2marks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics.md"
+                "file": "Physics - 2marks.md"
               }
             }
           },
@@ -172,8 +192,9 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "6448d3355131bf4c",
+  "active": "07c89fa58c70cdea",
   "lastOpenFiles": [
+    "Physics - 2marks.md",
     "Physics.md",
     "Studies-Clg/Tamil - Exam Q's.md",
     "Studies-Clg/Water & it's treatment.md",
