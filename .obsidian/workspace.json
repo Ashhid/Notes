@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studies-Clg/Physics/Physics - 2marks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d54b7ad8941c8b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Studies-Clg/Physics/Physics - 5mark.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "29d5eb3a57a0c8a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Studies-Clg/Physics/Physics - Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "06bb5fbf3b9a3f36",
@@ -184,28 +158,28 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7d54b7ad8941c8b7",
+  "active": "dd5cb2aecf3aa2f3",
   "lastOpenFiles": [
-    "Studies-Clg/Physics/Physics - 2marks.md",
+    "Studies-Clg/Imgs/idk.jpg",
     "Studies-Clg/Physics/Physics - 5mark.md",
-    "WhatsApp Image 2023-10-16 at 23.52.24_6d79ec3b.jpg",
-    "Studies-Clg/Physics/Physics - Questions.md",
-    "WhatsApp Image 2023-10-16 at 23.14.07_dac79963.jpg",
-    "Js-DOM/JavaScript-DOM.md",
-    "Studies-Clg/Physics/Imgs",
-    "Studies-Clg/Physics/Imgs/WhatsApp Image 2023-10-16 at 23.13.47_efb7b8ce.jpg",
+    "Studies-Clg/Physics/Physics - 2marks.md",
+    "Studies-Clg/Tamil - Heritage of Tamils.md",
     "Studies-Clg/Water & it's treatment.md",
+    "Studies-Clg/Tamil - Exam Q's.md",
+    "Studies-Clg/Imgs/WhatsApp Image 2023-10-16 at 23.14.07_dac79963.jpg",
+    "Studies-Clg/Imgs/WhatsApp Image 2023-10-16 at 23.52.24_6d79ec3b.jpg",
+    "Studies-Clg/Physics/Physics - Questions.md",
+    "Js-DOM/JavaScript-DOM.md",
+    "Studies-Clg/Imgs",
     "Studies-Clg/Physics",
     "TODO.md",
     "Hint's.md",
-    "Studies-Clg/Tamil - Exam Q's.md",
-    "Studies-Clg/Tamil - Heritage of Tamils.md",
     "SIH (Smart India Hackathon).md",
     "Studies-Clg",
     "Js-DOM/1.png",
     "DOM.md",
     "Imgs/DOM-Tree.PNG.md",
-    "Studies-Clg/Physics/Imgs",
+    "Studies-Clg/Imgs",
     "Js-DOM/Imgs",
     "Imgs/DOM-Tree.PNG",
     "Js-DOM/Pasted image 20230916113512.png",

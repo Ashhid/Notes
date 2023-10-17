@@ -1,6 +1,6 @@
 1. Parallel axis theorem
 	Let's consider This diagram
-![[WhatsApp Image 2023-10-16 at 23.13.47_efb7b8ce.jpg||200]]
+![[../Imgs/idk.jpg|200]]
 - Let's consider this small part with the mass of $m_i$.
 - And a axis which passes through the center of the mass with the name of $XX\prime$.
 - And a axis which is parallel to the $XX\prime$ let's name it $AA\prime$.
